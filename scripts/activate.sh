@@ -6,4 +6,4 @@ export CXX=/usr/bin/g++-14
 export CUDAHOSTCXX=/usr/bin/g++-14
 export CUDA_HOME="$PWD/.cuda"
 export PATH="$CUDA_HOME/bin:$PATH"
-export PYTHONPATH="$PWD/src"
+export PYTHONPATH="$PWD/src:$PWD/ohm_improvement"
